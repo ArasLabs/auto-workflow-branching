@@ -1,4 +1,4 @@
 <imports>
   <package name="aras.labs.WorkflowAutomationExamples" path="WorkflowAutomationExamples\Import" />
-	<package name="aras.labs.AutoWorkflowBranching" path="AutoWorkflowBranching\Import" />
+  <package name="aras.labs.AutoWorkflowBranching" path="AutoWorkflowBranching\Import" />
 </imports>
