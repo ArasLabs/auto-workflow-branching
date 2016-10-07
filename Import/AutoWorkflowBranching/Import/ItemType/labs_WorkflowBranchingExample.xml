@@ -10,18 +10,18 @@
   <is_dependent>0</is_dependent>
   <is_relationship>0</is_relationship>
   <is_versionable>0</is_versionable>
-  <label xml:lang="en">Workflow Branching Example</label>
-  <label_plural xml:lang="en">Workflow Branching Example</label_plural>
+  <label xml:lang="en">labs_WorkflowBranchingExample</label>
+  <label_plural xml:lang="en">labs_WorkflowBranchingExample</label_plural>
   <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
   <show_parameters_tab>1</show_parameters_tab>
   <structure_view>tabs off</structure_view>
   <unlock_on_logout>0</unlock_on_logout>
   <use_src_access>0</use_src_access>
-  <name>Workflow Branching Example</name>
+  <name>labs_WorkflowBranchingExample</name>
   <Relationships>
    <Item type="Property" id="E0F168F8C0EF42748B792221B79F555A" action="add">
     <column_alignment>left</column_alignment>
-    <data_source keyed_name="Workflow Branching Example">D503F96E44F94A7DB085BD9EBBC592C0</data_source>
+    <data_source keyed_name="labs_WorkflowBranchingExample">D503F96E44F94A7DB085BD9EBBC592C0</data_source>
     <data_type>sequence</data_type>
     <is_hidden>0</is_hidden>
     <is_hidden2>0</is_hidden2>
@@ -35,7 +35,7 @@
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>0</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
     <track_history>0</track_history>
     <name>item_number</name>
    </Item>
@@ -52,14 +52,14 @@
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
     <stored_length>64</stored_length>
     <track_history>0</track_history>
     <name>name</name>
    </Item>
    <Item type="Property" id="32FAA37267BE4379880F25C2B11EA64D" action="add">
     <column_alignment>left</column_alignment>
-    <data_source keyed_name="Workflow Branching Example">D2284CA89CB74D778EFF093D09B5FEAE</data_source>
+    <data_source keyed_name="labs_WorkflowBranchingExample">D2284CA89CB74D778EFF093D09B5FEAE</data_source>
     <data_type>list</data_type>
     <is_hidden>0</is_hidden>
     <is_hidden2>0</is_hidden2>
@@ -71,14 +71,14 @@
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
     <sort_order>256</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
     <stored_length>256</stored_length>
     <track_history>0</track_history>
     <name>plant</name>
    </Item>
    <Item type="View" id="270A8A1EB5694EED91D7166A8CCCDE5D" action="add">
     <client>js</client>
-    <related_id keyed_name="Workflow Branching Example" type="Form">EA8F30CFB7604F0CBEAB476807AF8D1E</related_id>
+    <related_id keyed_name="labs_WorkflowBranchingExample" type="Form">EA8F30CFB7604F0CBEAB476807AF8D1E</related_id>
     <role keyed_name="World" type="Identity">
      <Item type="Identity" action="get" select="id">
       <name>World</name>
@@ -86,24 +86,24 @@
     </role>
     <show_ssvc>0</show_ssvc>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
     <type>default</type>
    </Item>
    <Item type="ItemType Life Cycle" id="A92F7033B72D4F86B0F02E0DAC6BB81A" action="add">
     <related_id keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
    </Item>
    <Item type="Allowed Workflow" id="A697E815943041C1B978E4FF8D53A15D" action="add">
     <is_default>1</is_default>
-    <related_id keyed_name="Workflow Branching Example" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</related_id>
+    <related_id keyed_name="labs_WorkflowBranchingExample" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
    </Item>
    <Item type="TOC Access" id="CBB903FB0EF448AE9A8D7DA8824EFA7D" action="add">
     <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
     <category>Workflow Examples</category>
    </Item>
    <Item type="Can Add" id="A7C5BBB721AA4E8787A541C79748D0CF" action="add">
@@ -114,13 +114,13 @@
      </Item>
     </related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
    </Item>
    <Item type="Allowed Permission" id="9303B3393A88486784DF6CB5E414D6D5" action="add">
     <is_default>1</is_default>
-    <related_id keyed_name="Workflow Branching Example" type="Permission">635A78E21AAD4ACD8BDF59CC6A24F3C3</related_id>
+    <related_id keyed_name="labs_WorkflowBranchingExample" type="Permission">635A78E21AAD4ACD8BDF59CC6A24F3C3</related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="ItemType" name="Workflow Branching Example">B0642BD431254FCFB471ADE941B3BE44</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="ItemType" name="labs_WorkflowBranchingExample">B0642BD431254FCFB471ADE941B3BE44</source_id>
    </Item>
   </Relationships>
  </Item>

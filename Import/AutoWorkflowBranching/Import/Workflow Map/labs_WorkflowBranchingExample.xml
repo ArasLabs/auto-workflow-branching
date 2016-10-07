@@ -17,7 +17,7 @@
   <transition_line_color>       </transition_line_color>
   <transition_name_color>       </transition_name_color>
   <transition_name_font></transition_name_font>
-  <name>Workflow Branching Example</name>
+  <name>labs_WorkflowBranchingExample</name>
   <Relationships>
    <Item type="Workflow Map Activity" action="add">
     <related_id keyed_name="End" type="Activity Template">
@@ -43,7 +43,7 @@
      </Item>
     </related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
    </Item>
    <Item type="Workflow Map Activity" action="add">
     <related_id keyed_name="Start" type="Activity Template">
@@ -81,7 +81,7 @@
      </Item>
     </related_id>
     <sort_order>128</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
    </Item>
    <Item type="Workflow Map Activity" action="add">
     <related_id keyed_name="Auto Branch" type="Activity Template">
@@ -107,9 +107,9 @@
       <Relationships>
        <Item type="Activity Template Method" id="93461B0193DC4B0BBCFCFAD4A702CF75" action="add">
         <event>on_activate</event>
-        <related_id keyed_name="Workflow Branching Example CS" type="Method">
+        <related_id keyed_name="labs_WorkflowBranchingExampleCS" type="Method">
          <Item type="Method" action="get" select="id">
-          <name>Workflow Branching Example CS</name>
+          <name>labs_WorkflowBranchingExample CS</name>
          </Item>
         </related_id>
         <sort_order>256</sort_order>
@@ -146,7 +146,7 @@
      </Item>
     </related_id>
     <sort_order>256</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
    </Item>
    <Item type="Workflow Map Activity" action="add">
     <related_id keyed_name="Build at Plant A" type="Activity Template">
@@ -195,7 +195,7 @@
      </Item>
     </related_id>
     <sort_order>384</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
    </Item>
    <Item type="Workflow Map Activity" action="add">
     <related_id keyed_name="Build at Plant B" type="Activity Template">
@@ -244,7 +244,7 @@
      </Item>
     </related_id>
     <sort_order>512</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
    </Item>
    <Item type="Workflow Map Activity" action="add">
     <related_id keyed_name="Build at Plant C" type="Activity Template">
@@ -293,7 +293,7 @@
      </Item>
     </related_id>
     <sort_order>640</sort_order>
-    <source_id keyed_name="Workflow Branching Example" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
+    <source_id keyed_name="labs_WorkflowBranchingExample" type="Workflow Map">2DA30BB10B7F4B7E85DE485ED6D9C164</source_id>
    </Item>
   </Relationships>
  </Item>
