@@ -12,6 +12,7 @@ The activity then closes and the default path is followed.
 
 Release | Notes
 --------|--------
+[v1.1.1](https://github.com/ArasLabs/auto-workflow-branching/releases/tag/v1.1.1) | Updated Usage for Aras Version 12 
 [v1.1.0](https://github.com/ArasLabs/auto-workflow-branching/releases/tag/v1.1.0) | Update Tags for TOC List 
 [v1.0.1](https://github.com/ArasLabs/auto-workflow-branching/releases/tag/v1.0.1) | Tested 11.0 SP12, SP15. Tested on Edge, Firefox 60 ESR, Chrome.
 [v1.0.0](https://github.com/ArasLabs/auto-workflow-branching/releases/tag/v1.0.0) | First release. Tested on Internet Explorer 11, Firefox 38 ESR, Chrome. Though built and tested using Aras 11.0 SP7, this project should function in older releases of Aras 11.0 and Aras 10.0.
@@ -20,6 +21,7 @@ Release | Notes
 
 Project | Aras
 --------|------
+[v1.1.1](https://github.com/ArasLabs/auto-workflow-branching/releases/tag/v1.1.1) | 10.0+, 11.0+, 12.0+ 
 [v1.1.0](https://github.com/ArasLabs/auto-workflow-branching/releases/tag/v1.1.0) | 10.0+, 11.0+ 
 [v1.0.1](https://github.com/ArasLabs/auto-workflow-branching/releases/tag/v1.0.1) | 10.0+, 11.0+ 
 [v1.0.0](https://github.com/ArasLabs/auto-workflow-branching/releases/tag/v1.0.0) | 10.0 SPx, 11.0 SP7; Old Community Board Migration
@@ -32,7 +34,7 @@ Project | Aras
 
 ### Pre-requisites
 
-1. Aras Innovator installed (version 11.0 SPx preferred)
+1. Aras Innovator installed (version 12)
 2. Aras Package Import tool
 3. AutoWorkflowBranching import package
 
@@ -58,11 +60,11 @@ You are now ready to login to Aras and try out Automatic Workflow Branching.
 2. Navigate to **Workflow Examples** in the table of contents (TOC).
 3. Create a new Workflow Assignment Example item.
 4. Set the Plant property to any of the listed values.
-5. Click **Save/Unlock/Close**.
+5. Click **Done**.
 6. Navigate to **My Innovator > My Inbasket** in the TOC.
 7. Search for the newly created branching. The branching activity should correspond to the chosen Plant on the Workflow Branching Example form.
 
-To review the dynamically created branching and the paths of the workflow process item, open the Work Item from the branching. On the item form, select **Views > Workflow** from the main menu to view the workflow process.
+To review the dynamically created branching and the paths of the workflow process item, open the Work Item from the branching. On the item form, select **Navigate > Workflow** from the main menu to view the workflow process.
 
 ## Contributing
 
